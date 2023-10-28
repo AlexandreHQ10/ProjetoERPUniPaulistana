@@ -1,2 +1,2 @@
 # ProjetoERPUniPaulistana
-Projeto ainda em desesenvolvimento, um ERP.
+Projeto ainda em desenvolvimento, um ERP.
