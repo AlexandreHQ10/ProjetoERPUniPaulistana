@@ -5,44 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
-    <meta name="description" content="Página de login do Sistema ERP de Recursos Humano da Universidade Unipaulistana">
-    <meta:http-equiv="X-UA-Compatiple" content="ie=edge">
-        <meta name="keywords" content="">
-        <meta name="author" content="Alexandre Hq">
-        <link rel="short curt icon" href="img/Recursos humanos.png" type="image/x-icon">
-        <link rel="stylesheet" href="css/style.css" <title>ERP Recursos Humanos Unipaulistana</title>
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Página de Login do Sistema ERP de Recursos Humanos da Universidade Unipaulistana">
+    <meta name="keywords" content="ERP,Unipaulistana,RH">
+    <meta name="author" content="Alexandre Henrique de Souza Leodoro de Oliveira">
+    <link rel="shortcut icon" href="./img/recursos-humanos.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>ERP Recursos Humanos UniPaulistana</title>
 </head>
+
 <body>
     <div class="main">
-        <div class="conteiner">
+        <div class="container">
             <div id="square">
                 <div class="front">
-                    <h1>login</h1>
-                    <form action="" method="post">
-                        <input type="email" name="email" id="" required placeholder="E-mail">
-                        <input type="password" name="password" id="Senha" required placeholder="Senha">
+                    <h1>Login</h1>
+                    <form action="#" method="post">
+                        <input type="email" name="email" id="email" required placeholder="E-mail">
+                        <input type="password" name="password" id="password" required placeholder="Senha">
                         <button type="submit">Login</button>
                     </form>
                 </div>
-            <div class=right"">
-            <h1>Crie uma nova conta</h1>
-            <form action="#" method="post">
-                <input type="email" name="email" id="email" required placeholder="E-mail">
-                <input type="text" name="nomeCompleto" id="nomeCompleto" required placeholder="Nome Completo">
-                <input type="password" name="password" id="Senha" required placeholder="Senha">
-                <button type="submit">Cadastrar</button>
-            </form>
-            <div class="left">
-                <h1>Adicione seu e-mail para resetar a senha</h1>
-                    <input type="">
+                <div class="right">
+                    <h1>Crie uma nova conta</h1>
+                    <form action="#" method="post">
+                        <input type="email" name="email" id="email" required placeholder="E-mail">
+                        <input type="text" name="nomeCompleto" id="nomeCompleto" required placeholder="Nome Completo">
+                        <input type="password" name="password" id="password" required placeholder="Senha">
+                        <button type="submit">Cadastrar</button>
+                    </form>
+                </div>
+                <div class="left">
+                    <h1>Adicione seu e-mail para resetar sua senha</h1>
+                    <form action="#" method="post">
+                        <input type="email" name="email" id="email" required placeholder="E-mail">
+                        <button type="submit">Recuperar Senha</button>
+                    </form>
+                </div>
             </div>
-            <button class="leftside" type="button">Recuperar senha</button>
-            <button class="frontside" type="button">Login</button>
-            <button class="rightside" type="button">Cadastre-se</button>
+            <div class="actions">
+                <button id="leftSide" type="button">Recuperar senha</button>
+                <button id="frontSide" type="button">Login</button>
+                <button id="rightSide" type="button">Cadastre-se</button>
+            </div>
         </div>
     </div>
-    <script src="js/script.js"></script>
-</body>
+    <script src = "js/script.js"></script>
+    </body>
 
 </html>
