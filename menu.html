@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Menu de RH</title>
+  <!-- Inclua a biblioteca de ícones (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    /* Estilo base para o menu */
+    .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background-color: #79619e; /* Cor de fundo do menu */
+      display: flex; /* Tornar o menu horizontal */
+    }
+
+    /* Estilo para cada item do menu */
+    .menu li {
+      margin-right: 50px; /* Espaçamento entre os itens */
+      position: relative; /* Para acomodar os subitens */
+    }
+
+    /* Estilo para os links principais */
+    .menu a {
+      text-decoration: none;
+      color: #000000; /* Cor do texto do link */
+      padding: 10px;
+    }
+
+    /* Estilo para os ícones */
+    .menu i {
+      margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+      font-size: 18px; /* Tamanho do ícone */
+    }
+
+    /* Estilo para os submenus */
+    .submenu {
+      display: none; /* Ocultar submenus por padrão */
+      position: absolute;
+      top: 100%; /* Alinhar abaixo dos itens principais */
+      left: 0;
+      background-color: #796193; /* Cor de fundo do submenu */
+    }
+
+    /* Estilo para os itens de submenus */
+    .submenu li {
+      margin: 0;
+    }
+
+    /* Mostrar submenus quando o item principal for hover */
+    .menu li:hover .submenu {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <ul class="menu">
+    <li>
+      <a href="#"><i class="fas fa-users"></i> Gerenciar Funcionários</a>
+      <ul class="submenu">
+        <li><a href="#">Cadastro</a></li>
+        <li><a href="#">Histórico</a></li>
+      </ul>
+    </li>
+    <li><a href="#"><i class="fas fa-calendar-alt"></i> Calendário de Férias</a></li>
+    <li><a href="#"><i class="fas fa-chart-bar"></i> Relatórios de RH</a></li>
+    <li>
+      <a href="#"><i class="fas fa-briefcase"></i> Vagas de Emprego</a>
+      <ul class="submenu">
+        <li><a href="#">Listagem</a></li>
+        <li><a href="#">Cadastro</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#"><i class="fas fa-user-clock"></i> Controle de Ponto</a>
+      <ul class="submenu">
+        <li><a href="#">Registro</a></li>
+        <li><a href="#">Relatórios</a></li>
+      </ul>
+    </li>
+    <li><a href="#"><i class="fas fa-money-bill"></i> Folha de Pagamento</a></li>
+  </ul>
+</body>
+</html>
